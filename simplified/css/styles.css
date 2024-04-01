@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #3e5267; /* Example color */
+    color: white;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #92b5db; /* Example hover color */
+}
+
+main {
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+#forecast-form {
+    margin-bottom: 20px;
+}
+
+input[type="date"], button {
+    margin: 10px;
+    padding: 10px;
+}
+
+#forecast-results {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f2f2f2; /* Light grey background for results */
+}
